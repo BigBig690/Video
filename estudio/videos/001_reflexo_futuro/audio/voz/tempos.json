@@ -1,0 +1,138 @@
+[
+ {
+  "id": "c1",
+  "start": 0.6,
+  "dur": 5.365,
+  "end": 5.965,
+  "parts": [
+   {
+    "text": "E se o seu reflexo mostrasse o que vai acontecer...",
+    "start": 0.6,
+    "end": 3.746
+   },
+   {
+    "text": "dez segundos antes?",
+    "start": 4.446,
+    "end": 5.965
+   }
+  ]
+ },
+ {
+  "id": "c2",
+  "start": 7.3,
+  "dur": 5.925,
+  "end": 13.225,
+  "parts": [
+   {
+    "text": "No come\u00e7o, voc\u00ea acha que \u00e9 um truque.",
+    "start": 7.3,
+    "end": 9.705
+   },
+   {
+    "text": "At\u00e9 que tudo acontece exatamente como viu.",
+    "start": 10.305,
+    "end": 13.225
+   }
+  ]
+ },
+ {
+  "id": "c3",
+  "start": 15.3,
+  "dur": 7.055,
+  "end": 22.355,
+  "parts": [
+   {
+    "text": "Ent\u00e3o voc\u00ea come\u00e7a a usar isso a seu favor.",
+    "start": 15.3,
+    "end": 18.385
+   },
+   {
+    "text": "Antecipando pequenas coisas que ningu\u00e9m poderia prever.",
+    "start": 18.885,
+    "end": 22.355
+   }
+  ]
+ },
+ {
+  "id": "c4",
+  "start": 24.4,
+  "dur": 5.967,
+  "end": 30.367,
+  "parts": [
+   {
+    "text": "Mas uma noite, o reflexo faz algo diferente.",
+    "start": 24.4,
+    "end": 27.526
+   },
+   {
+    "text": "Ele para de mostrar o futuro.",
+    "start": 28.426,
+    "end": 30.367
+   }
+  ]
+ },
+ {
+  "id": "c5",
+  "start": 33.4,
+  "dur": 6.738,
+  "end": 40.138,
+  "parts": [
+   {
+    "text": "Ele olha para a porta.",
+    "start": 33.4,
+    "end": 34.924
+   },
+   {
+    "text": "Depois para voc\u00ea.",
+    "start": 35.824,
+    "end": 37.244
+   },
+   {
+    "text": "E come\u00e7a a bater no vidro.",
+    "start": 38.244,
+    "end": 40.138
+   }
+  ]
+ },
+ {
+  "id": "c6",
+  "start": 43.4,
+  "dur": 5.833,
+  "end": 49.233,
+  "parts": [
+   {
+    "text": "Voc\u00ea foge do quarto.",
+    "start": 43.4,
+    "end": 45.044
+   },
+   {
+    "text": "Dez segundos depois, todas as luzes se apagam.",
+    "start": 46.244,
+    "end": 49.233
+   }
+  ]
+ },
+ {
+  "id": "c7",
+  "start": 52.4,
+  "dur": 8.136,
+  "end": 60.536,
+  "parts": [
+   {
+    "text": "Mas quando olha para a janela...",
+    "start": 52.4,
+    "end": 54.314
+   },
+   {
+    "text": "o seu reflexo continua no quarto.",
+    "start": 55.214,
+    "end": 57.448
+   },
+   {
+    "text": "Olhando diretamente para voc\u00ea.",
+    "start": 58.248,
+    "end": 60.536
+   }
+  ]
+ }
+]

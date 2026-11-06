@@ -1,0 +1,10 @@
+{"voice": "pm_alex", "speed": 0.9, "total": 62.5,
+ "lines": [
+  {"id": "c1", "start": 0.6, "parts": ["E se o seu reflexo mostrasse o que vai acontecer...", 0.7, "dez segundos antes?"]},
+  {"id": "c2", "start": 7.3, "parts": ["No começo, você acha que é um truque.", 0.6, "Até que tudo acontece exatamente como viu."]},
+  {"id": "c3", "start": 15.3, "parts": ["Então você começa a usar isso a seu favor.", 0.5, "Antecipando pequenas coisas que ninguém poderia prever."]},
+  {"id": "c4", "start": 24.4, "parts": ["Mas uma noite, o reflexo faz algo diferente.", 0.9, "Ele para de mostrar o futuro."]},
+  {"id": "c5", "start": 33.4, "parts": ["Ele olha para a porta.", 0.9, "Depois para você.", 1.0, "E começa a bater no vidro."]},
+  {"id": "c6", "start": 43.4, "parts": ["Você foge do quarto.", 1.2, "Dez segundos depois, todas as luzes se apagam."]},
+  {"id": "c7", "start": 52.4, "parts": ["Mas quando olha para a janela...", 0.9, "o seu reflexo continua no quarto.", 0.8, "Olhando diretamente para você."]}
+ ]}

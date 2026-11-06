@@ -1,0 +1,184 @@
+[
+ {
+  "id": "s01",
+  "start": 0.0,
+  "end": 3.0,
+  "lens": 30,
+  "desc": "Plano por cima do ombro: protagonista imóvel; o reflexo já se mexe e olha para o copo."
+ },
+ {
+  "id": "s02",
+  "start": 3.0,
+  "end": 4.4,
+  "lens": 32,
+  "desc": "Aproximação rápida ao espelho: no reflexo, o copo cai."
+ },
+ {
+  "id": "s03",
+  "start": 4.4,
+  "end": 5.6,
+  "lens": 55,
+  "desc": "Inserto: o copo real continua parado na mesinha."
+ },
+ {
+  "id": "s04",
+  "start": 5.6,
+  "end": 7.2,
+  "lens": 40,
+  "desc": "Close do rosto: ele vira a cabeça, assustado."
+ },
+ {
+  "id": "s05",
+  "start": 7.2,
+  "end": 10.3,
+  "lens": 28,
+  "desc": "Plano lateral: o copo real cai exatamente como no espelho; ele pula para trás."
+ },
+ {
+  "id": "s06",
+  "start": 10.3,
+  "end": 12.0,
+  "lens": 40,
+  "desc": "Por cima do ombro esquerdo: o reflexo levanta a mão antes dele."
+ },
+ {
+  "id": "s07",
+  "start": 12.0,
+  "end": 15.0,
+  "lens": 35,
+  "desc": "Perfil no vidro: as mãos se encontram; a dele chega atrasada."
+ },
+ {
+  "id": "s08",
+  "start": 15.0,
+  "end": 16.6,
+  "lens": 30,
+  "desc": "No espelho, o vaso da estante (atrás dele) cai e se espatifa."
+ },
+ {
+  "id": "s09",
+  "start": 16.6,
+  "end": 18.4,
+  "lens": 24,
+  "desc": "Ele se vira, corre e pega o vaso no ar."
+ },
+ {
+  "id": "s10",
+  "start": 18.4,
+  "end": 19.9,
+  "lens": 32,
+  "desc": "No espelho: a porta se abre e alguém entra com um presente."
+ },
+ {
+  "id": "s11",
+  "start": 19.9,
+  "end": 21.4,
+  "lens": 30,
+  "desc": "Real: ele já espera de braços abertos quando a porta abre."
+ },
+ {
+  "id": "s12",
+  "start": 21.4,
+  "end": 22.6,
+  "lens": 35,
+  "desc": "No espelho: o reflexo tira as chaves de baixo da almofada."
+ },
+ {
+  "id": "s13",
+  "start": 22.6,
+  "end": 24.2,
+  "lens": 32,
+  "desc": "Real: ele encontra as chaves no mesmo lugar."
+ },
+ {
+  "id": "s14",
+  "start": 24.2,
+  "end": 27.6,
+  "lens": 24,
+  "desc": "Noite. Plano geral alto: ele caminha até o espelho."
+ },
+ {
+  "id": "s15",
+  "start": 27.6,
+  "end": 30.8,
+  "lens": 32,
+  "desc": "Ele levanta o braço e acena; o reflexo não responde."
+ },
+ {
+  "id": "s16",
+  "start": 30.8,
+  "end": 33.3,
+  "lens": 30,
+  "desc": "Ângulo do espelho: ele recua devagar; o reflexo continua parado, mais perto do vidro."
+ },
+ {
+  "id": "s17",
+  "start": 33.3,
+  "end": 35.7,
+  "lens": 40,
+  "desc": "O reflexo vira lentamente a cabeça para a porta."
+ },
+ {
+  "id": "s18",
+  "start": 35.7,
+  "end": 38.1,
+  "lens": 60,
+  "desc": "Close: o reflexo volta a cabeça e encara você."
+ },
+ {
+  "id": "s19",
+  "start": 38.1,
+  "end": 40.6,
+  "lens": 26,
+  "desc": "Plano lateral: o reflexo bate as duas mãos no vidro; a luz oscila."
+ },
+ {
+  "id": "s20",
+  "start": 40.6,
+  "end": 43.2,
+  "lens": 38,
+  "desc": "Ponto de vista: as palmas batendo no vidro, luz piscando."
+ },
+ {
+  "id": "s21",
+  "start": 43.2,
+  "end": 45.6,
+  "lens": 24,
+  "desc": "Ele foge do quarto; câmera o persegue até a porta."
+ },
+ {
+  "id": "s22",
+  "start": 45.6,
+  "end": 49.4,
+  "lens": 22,
+  "desc": "Corredor: ele corre; as luzes apagam uma a uma."
+ },
+ {
+  "id": "s23",
+  "start": 49.4,
+  "end": 52.2,
+  "lens": 30,
+  "desc": "Ele para diante da janela escura. Silêncio."
+ },
+ {
+  "id": "s24",
+  "start": 52.2,
+  "end": 55.0,
+  "lens": 32,
+  "desc": "Câmera avança por cima do ombro em direção ao vidro."
+ },
+ {
+  "id": "s25",
+  "start": 55.0,
+  "end": 58.0,
+  "lens": 40,
+  "desc": "No vidro: o quarto, e o reflexo parado diante do espelho antigo."
+ },
+ {
+  "id": "s26",
+  "start": 58.0,
+  "end": 62.5,
+  "lens": 55,
+  "desc": "O reflexo vira a cabeça e encara a câmera. Corte seco para preto."
+ }
+]
