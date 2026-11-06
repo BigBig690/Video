@@ -8,6 +8,7 @@ ap.add_argument("video")
 ap.add_argument("report")
 ap.add_argument("sheet")
 ap.add_argument("--expect-black", type=float, default=None, help="início do preto intencional (corte final)")
+ap.add_argument("--allow-black", default="", help="trechos pretos intencionais 'ini-fim,ini-fim' (ex.: apagão)")
 ap.add_argument("--frames_dir", default=None)
 ap.add_argument("--nframes", type=int, default=0)
 ap.add_argument("--extra", default="", help="arquivo .md com notas adicionais anexadas ao relatório")
@@ -49,9 +50,11 @@ if au:
 bd = subprocess.run(["ffmpeg", "-hide_banner", "-i", a.video, "-vf", "blackdetect=d=0.1:pix_th=0.06", "-an", "-f", "null", "-"],
                     capture_output=True, text=True).stderr
 blacks = [(float(x), float(y)) for x, y in re.findall(r"black_start:([\d.]+) black_end:([\d.]+)", bd)]
-unexpected = [b for b in blacks if a.expect_black is None or b[0] < a.expect_black - 0.15]
+allowed = [tuple(map(float, r.split("-"))) for r in a.allow_black.split(",") if r]
+unexpected = [b for b in blacks if (a.expect_black is None or b[0] < a.expect_black - 0.15)
+              and not any(lo - 0.05 <= b[0] and b[1] <= hi + 0.05 for lo, hi in allowed)]
 check("Sem quadros pretos indesejados", not unexpected,
-      ("pretos encontrados: " + ", ".join(f"{s:.2f}–{e:.2f}s" for s, e in blacks)) + (" (o final preto é intencional)" if blacks and not unexpected else "")
+      ("pretos encontrados: " + ", ".join(f"{s:.2f}–{e:.2f}s" for s, e in blacks)) + (" — todos intencionais (apagão / corte seco final)" if blacks and not unexpected else "")
       if blacks else "nenhum trecho preto")
 # congelamentos (quadros repetidos por muito tempo)
 fz = subprocess.run(["ffmpeg", "-hide_banner", "-i", a.video, "-vf", "freezedetect=n=0.0008:d=1.2", "-an", "-f", "null", "-"],

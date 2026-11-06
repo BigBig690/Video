@@ -1,0 +1,26 @@
+{
+  "descricao": "Histórico persistente de conceitos do estúdio de Shorts 3D. Antes de criar um vídeo novo, comparar premissa, fenômeno, conflito, reviravolta e final com TODOS os itens abaixo e com 'conceitos_bloqueados'. Rejeitar ideias iguais ou excessivamente semelhantes (mesma mecânica com outro personagem, cenário ou número).",
+  "conceitos_bloqueados": [
+    {"tema": "oceano / fundo do mar", "motivo": "tema do vídeo anterior do usuário (pedido explícito para não repetir)"},
+    {"tema": "tempo de reação 10x maior", "motivo": "conceito conhecido do canal Ifverse"},
+    {"tema": "QI de 500", "motivo": "conceito conhecido do canal Ifverse"},
+    {"tema": "voltar à infância mantendo as memórias", "motivo": "conceito conhecido do canal Ifverse"}
+  ],
+  "videos": [
+    {
+      "id": "001",
+      "slug": "001_reflexo_futuro",
+      "titulo": "E se seu reflexo mostrasse o futuro 10 segundos antes?",
+      "premissa": "O reflexo de uma pessoa no espelho do quarto passa a mostrar o que vai acontecer alguns segundos antes de acontecer.",
+      "categoria": "ficção científica / suspense psicológico",
+      "fenomeno": "reflexo adiantado no tempo (espelho como janela para o futuro próximo)",
+      "conflito": "o protagonista se acostuma a usar a vantagem até que o reflexo deixa de obedecer e tenta avisá-lo de algo",
+      "reviravolta": "o reflexo para de mostrar o futuro, olha para a porta e bate no vidro como um alerta",
+      "final": "após a fuga e o apagão, o protagonista vê na janela do corredor que o reflexo continua no quarto, encarando-o; corte seco e uma batida no vidro",
+      "estrutura": "pergunta-gancho → prova do fenômeno → uso vantajoso (3 exemplos rápidos) → quebra da regra → ameaça → fuga → imagem impossível final",
+      "elementos_visuais": ["espelho com filete de luz ciano", "quarto e corredor de apartamento", "copo âmbar", "vaso turquesa", "presente vermelho", "chaves douradas", "apagão progressivo", "quarto-fantasma visto pela janela"],
+      "data": "2026-11-06",
+      "estado": "produzido"
+    }
+  ]
+}

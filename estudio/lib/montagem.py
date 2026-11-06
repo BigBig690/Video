@@ -12,7 +12,7 @@ ap.add_argument("out")
 ap.add_argument("--fps", type=int, default=30)
 ap.add_argument("--w", type=int, default=1080)
 ap.add_argument("--h", type=int, default=1920)
-ap.add_argument("--crf", type=int, default=17)
+ap.add_argument("--crf", type=int, default=19)
 a = ap.parse_args()
 
 # 1ª passada do loudnorm (medição)
@@ -22,10 +22,10 @@ js = json.loads(m[m.rfind("{"): m.rfind("}") + 1])
 ln = (f"loudnorm=I=-14:TP=-1.5:LRA=11:measured_I={js['input_i']}:measured_TP={js['input_tp']}:"
       f"measured_LRA={js['input_lra']}:measured_thresh={js['input_thresh']}:offset={js['target_offset']}:linear=true")
 vf = (f"scale={a.w}:{a.h}:flags=lanczos,unsharp=5:5:0.6:5:5:0.0,"
-      f"vignette=angle=PI/5:mode=forward,noise=alls=3:allf=t,format=yuv420p")
+      f"vignette=angle=PI/5:mode=forward,noise=alls=2:allf=t,format=yuv420p")
 cmd = ["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-framerate", str(a.fps),
        "-i", os.path.join(a.frames, "f_%04d.jpg"), "-i", a.audio,
-       "-vf", vf, "-af", ln + ",aresample=48000",
+       "-vf", vf, "-af", ln + ",aresample=48000,alimiter=limit=0.74:level=false",
        "-c:v", "libx264", "-preset", "slow", "-crf", str(a.crf), "-profile:v", "high", "-pix_fmt", "yuv420p",
        "-r", str(a.fps), "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-shortest", "-movflags", "+faststart",
        "-metadata", "title=", a.out]

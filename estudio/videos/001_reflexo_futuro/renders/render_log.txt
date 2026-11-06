@@ -1,0 +1,2 @@
+ANIM 1875 frames 16253.6s (8.67s/frame)
+1875 quadros, Cycles CPU, 540x960, 12 amostras + OpenImageDenoise
